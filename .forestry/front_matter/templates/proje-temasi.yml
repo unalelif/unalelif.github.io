@@ -1,0 +1,65 @@
+---
+label: proje-teması
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: category
+  label: category
+- type: field_group
+  name: meta
+  label: meta
+  fields:
+  - type: text
+    name: keywords
+    label: keywords
+- type: field_group
+  name: project
+  label: project
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: type
+    label: type
+  - type: text
+    name: url
+    label: url
+  - type: file
+    name: logo
+    label: logo
+  - type: text
+    name: tech
+    label: tech
+- type: field_group
+  name: agency
+  label: agency
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: year
+    label: year
+- type: field_group_list
+  name: images
+  label: images
+  fields:
+  - type: text
+    name: image
+    label: image
+  - type: file
+    name: url
+    label: url
+  - type: text
+    name: alt
+    label: alt
